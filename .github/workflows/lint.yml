@@ -12,8 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      OS: ${{ matrix.os }}
-      PYTHON: '3.9.13'
+      PYTHON: '3.7'
 
     steps:
       # Checks out a copy of your repository on the ubuntu-latest machine
