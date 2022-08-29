@@ -10,6 +10,3 @@ class MainTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-    # python -m unittest discover -p "*_tset.py"
-    # coverage run --source=./ -m unittest discover -p "*_test.py"
-    # coverage xml
